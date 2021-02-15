@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have this app for master branch:',
+              'You have this app for master branch, now we are checking difference:',
             ),
             Text(
               '$_counter',
