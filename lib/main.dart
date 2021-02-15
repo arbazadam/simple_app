@@ -50,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have this app for master branch, now we are checking difference:',
             ),
             Text('This is feature branch'),
+            Text('This is for codemagic'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
