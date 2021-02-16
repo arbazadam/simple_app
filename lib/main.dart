@@ -46,13 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'You have this app for master branch, now we are checking difference:',
-            ),
-            Text('This is feature branch'),
-            Text('This is for codemagic'),
-            Text('feature branch codemagic'),
-            Text('Another one codemagic'),
+            Text('Hello all we are creating this app for codemagic'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
